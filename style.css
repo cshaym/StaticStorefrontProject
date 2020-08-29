@@ -1,0 +1,176 @@
+/* My Top Page Div Styling */
+.header_wrapper {
+    background-color: rgba(74, 77, 143, 0.527);
+}
+
+#account_bar {
+    float: right;
+}
+
+.account {
+    padding: 0 30px;
+    float: right;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: white;
+    font-size: 20px;
+}
+
+.media_logo {
+    width: 20px;
+    height: 20px;
+}
+
+ul li {
+    list-style: none;          /* gets rid of bullet points */
+    display: inline-block;     /* makes the list horizontal instead of the vertical default */
+}
+
+ul li a {
+    text-decoration: none;     /* got rid of underline */
+    padding: 0 5px;            /* logo/word spacing */
+}
+
+
+
+/* My Body Styling */
+
+body {
+    
+    background: url(assets/wood4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* My Header Styling */
+
+.store_name {
+    background-image: url("assets/bakery5.jpg");
+    position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 255px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 0;
+    margin-left: 25%;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgba(250, 252, 252, 0.8);   /* a= opacity 0-1 range */
+    font-style: italic;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 75px;
+    padding-top: 0;
+    color: rgba(250, 252, 252, 0.8);
+    margin-top: 0;
+    margin-left: 30%;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.user_menu {
+    float: right;
+}
+
+.menu_nav {
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma;
+    
+}
+
+.menu_nav:hover {
+    color: #B8D6CB;
+    
+}
+
+#searchbar {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+
+
+
+/* My Section Styling */
+
+.food_box {
+    float: left;
+    position: relative; /* need to center these */
+    width: 300px;
+    height: 717.6px;
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
+    background-color:rgba(189, 172, 236, .7);
+}
+
+.food_pic {
+    width: 300px;
+    height: 400px;
+}
+
+button {
+    background-color: #A6E3C1;
+    height: 30px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #D494C2;
+}
+
+h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    color: #1E3061;
+}
+
+h4 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    color: #1E3061;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 17px;
+    color: #033B63;
+    font-weight: 600;
+}
+
+
+
+/* My Footer Styling */
+
+footer {
+    padding-top: 70px;
+    position: relative;
+    height: 70px;
+    margin: 0 auto;
+    clear: both;            /* a way to make sure the footer stays at the bottom */
+    text-align: center;
+    
+}
+
+.footer_item {
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+}
+
+.footer_bar {
+    background-color: rgba(36, 127, 143, .5);
+    height: 50px;
+}
